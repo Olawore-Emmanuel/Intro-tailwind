@@ -12,7 +12,7 @@
         <header class="flex justify-between items-center py-5 px-10">
             <div class="flex items-center gaps-25 space-x-5">
                <img src="./images/logo.svg" alt="" >
-               <nav class="flex gap-5 text-gray-600">
+               <nav class=" hidden lg:flex gap-5 text-gray-600">
                 <select class="font-medium focus:outline-none hover:text-gray-900">
                     <option>Features</option>
                     <option>Todo list </option>
@@ -30,7 +30,8 @@
                 <p class="font-medium focus:outline-none hover:text-gray-900">About</p>
                </nav>
             </div>
-            <div class="flex gap-5 items-center text-gray-500">
+            <div class="lg:hidden"><img src="./images/icon-menu.svg" alt=""></div>
+            <div class=" hidden lg:flex gap-5 items-center text-gray-500">
                 <p class="font-medium focus:outline-none hover:text-gray-900">Login</p>
                 <p class="font-medium focus:outline-none hover:text-gray-900  border border-gray-500 px-4 py-2 rounded hover:border-gray-900 px-4 py-2 rounded-xl" >Register</p>
             </div>
