@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-[Epilogue]">
     <div class="container mx-auto w-full bg-white">
-        <header class="flex justify-between items-center py-5 px-10">
+        <header class="flex justify-between items-center py-5 px-10 ">
             <div class="flex items-center gaps-25 space-x-5">
                <img src="./images/logo.svg" alt="" >
                <nav class="flex gap-5 text-gray-600">
@@ -35,6 +38,28 @@
                 <p class="font-medium focus:outline-none hover:text-gray-900  border border-gray-500 px-4 py-2 rounded hover:border-gray-900 px-4 py-2 rounded-xl" >Register</p>
             </div>
         </header>
+        <div class="mx-20 my-10">
+           <div class="container mx-auto flex gap-[180px] items-end ">
+             <article >
+               <p class="text-[70px] font-bold text-gray-900 mb-10 leading-[75px]"> Make remote work</p>
+               <p class="text-gray-500 mb-16">
+                Get your team in sync, no matter your 
+                location. Streamline processes, create 
+                team rituals, and watch productivity soar.
+               </p>
+               <button class="decoration-none px-6 py-3 text-white bg-black rounded-xl border border-black hover:bg-white hover:text-black transition-all duration-500">Learn More</button>
+               <div class="mt-[120px] flex items-center gap-8">
+                <img class="h-fit" src="./images/client-databiz.svg" alt="">
+                <img class="h-fit" src="./images/client-audiophile.svg" alt="">
+                <img class="h-fit" src="./images/client-meet.svg" alt="">
+                <img class="h-fit" src="./images/client-maker.svg" alt="">
+               </div>
+             </article>
+             <div>
+                <img src="./images/image-hero-desktop.png" alt="">
+             </div>
+           </div>
+        </div>
     </div>
 </body>
 </html>
